@@ -42,8 +42,6 @@ export function App() {
 
   const { data: contacts, isFetching } = useGetContactsQuery();
 
-  const loading = () => {};
-
   return (
     <div
       className={css`
